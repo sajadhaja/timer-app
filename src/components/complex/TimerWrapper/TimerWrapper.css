@@ -23,7 +23,7 @@
       font-size: 25px;
       cursor: pointer;
     }
-    .start-button:hover {
+    .start-button:hover, .start-button:focus {
       color: #001F3F;
       background-color: #fff;
     }
