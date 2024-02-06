@@ -1,0 +1,74 @@
+.donut {
+  height: 50vh;
+  width:50vh;
+}
+
+circle {
+  transition: all 1s linear;
+}
+
+.circleOuter{
+  transition: all 1s linear;
+  stroke: #DDDEDF;
+  stroke-width: 3;
+  stroke-linecap: round;
+  fill: transparent;
+}
+
+.circleInner {
+  transition: all 1s linear;
+  stroke: #545557;
+  stroke-width: 3;
+  stroke-linecap: round;
+  fill: transparent;
+}
+
+.circleInner:hover {
+  fill:#87a2b0;
+  stroke: #545557 !important;
+}
+
+.circleOuter:hover {
+  fill:#545557;
+  stroke: #87a2b0 !important;
+}
+
+.count-text {
+  fill: white;
+  -webkit-animation: heartBeat 1s infinite;
+  animation: heartBeat 1s infinite;
+}
+
+.pause-text {
+  fill: #ffa500;
+  font-size: 3px;
+}
+
+@-webkit-keyframes heartBeat {
+  0%   {
+    opacity: 0;
+  }
+  5%   {
+    opacity: 1;
+  }
+  95% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes heartBeat {
+  0%   {
+    opacity: 0;
+  }
+  5%   {
+    opacity: 1;
+  }
+  95% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
