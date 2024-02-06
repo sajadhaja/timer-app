@@ -1,6 +1,17 @@
-# Getting Started with Create React App
+# React Timer App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This web application, built using React, offers the following functionalities:
+
+- Upon initial load, the screen displays a centrally positioned "Start timer" button.
+- Upon clicking the button, a countdown of 10 seconds initiates.
+- The button transforms into a countdown display, indicating the remaining seconds which decrement every second until reaching 0.
+- Hovering over the countdown display suspends the countdown, providing feedback to the user by showing "Paused...".
+- Clicking on the countdown display stops the timer, returning the application to its initial state with the "Start timer" button.
+
+## Accessibility Features
+#### How is it accessible?
+- The buttons and timer display container are accessible via keyboard navigation (use the 'Tab' key to focus and 'Enter' to click).
+- Once the timer has started, screen readers can read the timer value.
 
 ## Available Scripts
 
