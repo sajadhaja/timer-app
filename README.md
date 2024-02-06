@@ -8,6 +8,15 @@ This web application, built using React, offers the following functionalities:
 - Hovering over the countdown display suspends the countdown, providing feedback to the user by showing "Paused...".
 - Clicking on the countdown display stops the timer, returning the application to its initial state with the "Start timer" button.
 
+## Demo
+
+#### Using Mouse
+https://github.com/sajadhaja/timer-app/assets/29910473/048204a6-e0a6-4af3-8b5a-42ed74e6fa08
+
+
+####  Using Keyboard
+https://github.com/sajadhaja/timer-app/assets/29910473/b3faed9f-b268-4ea8-9014-4351227bc2e3
+
 ## Accessibility Features
 #### How is it accessible?
 - The buttons and timer display container are accessible via keyboard navigation (use the 'Tab' key to focus and 'Enter' to click).
