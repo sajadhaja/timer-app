@@ -26,8 +26,8 @@ export function TimerCircle(props: Props) {
           cx="21"
           cy="21"
           r="15.91549430918954"
-          stroke-dasharray={l + " " + k} //100, 0 to 0, 100
-          stroke-dashoffset={l}
+          strokeDasharray={l + " " + k} //100, 0 to 0, 100
+          strokeDashoffset={l}
         ></circle>
 
         <circle
@@ -35,8 +35,8 @@ export function TimerCircle(props: Props) {
           cx="21"
           cy="21"
           r="15.91549430918954"
-          stroke-dasharray={k + " " + l} //0,100  to 100, 0
-          stroke-dashoffset="0"
+          strokeDasharray={k + " " + l} //0,100  to 100, 0
+          strokeDashoffset="0"
         ></circle>
 
         <g>
@@ -46,8 +46,8 @@ export function TimerCircle(props: Props) {
               className="count-text"
               x="50%"
               y="50%"
-              dominant-baseline="middle"
-              text-anchor="middle"
+              dominantBaseline="middle"
+              textAnchor="middle"
             >
               {props.count}
             </text>
@@ -57,8 +57,8 @@ export function TimerCircle(props: Props) {
               className="pause-text"
               x="50%"
               y="70%"
-              dominant-baseline="middle"
-              text-anchor="middle"
+              dominantBaseline="middle"
+              textAnchor="middle"
             >
               Paused... !
             </text>
